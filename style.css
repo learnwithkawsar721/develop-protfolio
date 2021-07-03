@@ -19,6 +19,9 @@ body{
 }
 .header{
     display: flex;
+    background: url('images/top-banner.png') top left no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 .half-with{
     width: 50%;
