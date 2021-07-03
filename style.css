@@ -22,6 +22,7 @@ body{
     background: url('images/top-banner.png') top left no-repeat;
     background-size: cover;
     width: 100%;
+    margin-bottom: 100px;
 }
 .half-with{
     width: 50%;
@@ -37,17 +38,20 @@ body{
 .header-content{
     margin-top: 70px;
 }
-.header-content h1{
+.header-content h1,
+.about-text h1{
  font-size: 50px;
- line-height: 2em;
+ line-height: 1.5em;
  font-weight: 600;
 }
-.header-content h3{
+.header-content h3,
+.about-text h3{
     font-size: 24px;
-    line-height: 2em;
+    line-height: 1.5em;
     font-weight: 600;
 }
-.header-content p{
+.header-content p,
+.about-text p{
     text-align: justify;
     margin-top: 20px;
     font-size: 18px;
@@ -68,4 +72,23 @@ body{
     border-radius: 6px;
     color: #fff;
    
+}
+/* =============== Header End ================= */
+.about{
+    display: flex;
+    width: 100%;
+    background: url(images/dream-bg.png) right no-repeat;
+
+}
+.about-half{
+    width: 50%; 
+    margin-left: 3%;
+}
+.about-img img{
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text p{
+    width: 80%;
+    margin-bottom: 30px;
 }
