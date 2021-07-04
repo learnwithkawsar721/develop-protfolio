@@ -115,6 +115,9 @@ body{
 .display__flex{
     display: flex;
 }
+.experience-area{
+    margin-bottom: 80px;
+}
 .exp-card{
     width: 40%;
    margin: auto;
@@ -142,4 +145,8 @@ border-color: blue;
     text-align: left;
     color: var(--second-color);
     padding: 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 30px;
 }
